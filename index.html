@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Christopher Glinka | GitHub: CGlinka95" />
+    <meta
+      name="description"
+      content="A javascript weather app using the openweathermap API that will display weather data according to user input."
+    />
+    <meta
+      name="keywords"
+      content="HTML, JavaScript, Bootstrap, Parcel, NPM, ES Modules, API, OpenWeatherMap"
+    />
+    <meta charset="utf-8" />
+    <title>Simple Weather App</title>
+    <!-- Linked JS File -->
+    <script type="module" src="js/index.js" defer></script>
+
+    <!-- some custom css -->
+    <style>
+      .container-sm {
+        max-width: 760px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="px-4 py-5 container-sm">
+      <h1 class="text-center">Weather App</h1>
+      <form id="weather-search">
+        <div class="row">
+          <div class="mb-3 col-9">
+            <input
+              name="city-name"
+              type="text"
+              class="form-control"
+              placeholder="city name here..."
+            />
+          </div>
+          <div class="mb-3 col-3">
+            <button type="submit" id="btn" class="w-100 btn btn-primary">
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center">Current Weather</h2>
+          <div class="weather-container">
+            <div class="text-center">
+              Search for a city to display the weather
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

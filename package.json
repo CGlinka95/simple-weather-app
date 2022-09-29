@@ -1,0 +1,29 @@
+{
+  "name": "simple-weather-application",
+  "version": "1.0.0",
+  "description": "A weather app to demonstrate proficiency in JavaScript",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CGlinka95/simple-weather-application.git"
+  },
+  "author": "Christopher Glinka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CGlinka95/simple-weather-application/issues"
+  },
+  "homepage": "https://github.com/CGlinka95/simple-weather-application#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "parcel": "^2.7.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
